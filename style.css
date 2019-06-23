@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    background-image: url("assets/images/hip-square.png");
+}
+
+#navBackground {
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#brandBackground {
+    background-color: #4aaaa4;
+    font-size: 2em;
+    color: white;
+}
+
+#footer {
+    width: 100%;
+    text-align: center;
+    background-color: #666666;
+    color: white;
+    position: fixed;
+    height: 30px;
+    bottom: 0;
+    border-top-style: solid;
+    border-color: #4aaaa5;
+    border-width: .5em;
+}
+
+.submitButton {
+    background-color: #4aaaa4;
+    color: white;
+}
+
+.mainWidth {
+    width: 1175px;
+    margin: auto;
+}
+
+li a {
+    color: #858585;
+}
+
+h2 {
+    color: #4aaaa4;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+}
+
+.galleryImage {
+    position: relative;
+    text-align: center;
+}
+
+.galleryText {
+    position: absolute;
+    left: 21%;
+    bottom: 1em;
+    background-color: #4aaaa5;
+    width: 200px;
+    padding: .75em 0 .75em 0;
+    color: white;
+}
