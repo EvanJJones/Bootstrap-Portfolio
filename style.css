@@ -7,12 +7,20 @@ body {
 #navBackground {
     background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom-style: solid;
+    border-color: #cccccc;
+}
+
+.mainBackground {
+    background-color: white;
 }
 
 #brandBackground {
     background-color: #4aaaa4;
     font-size: 2em;
     color: white;
+    height: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #footer {
@@ -34,7 +42,7 @@ body {
 }
 
 .mainWidth {
-    width: 1175px;
+    width: 75%;
     margin: auto;
 }
 
@@ -49,16 +57,11 @@ h2 {
 }
 
 .galleryImage {
-    position: relative;
-    text-align: center;
+    /* position: relative;
+    text-align: center; */
 }
 
 .galleryText {
-    position: absolute;
-    left: 21%;
-    bottom: 1em;
     background-color: #4aaaa5;
-    width: 200px;
-    padding: .75em 0 .75em 0;
     color: white;
 }
