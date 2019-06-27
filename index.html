@@ -1,54 +1,79 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bootstrap Portfolio</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
     <!-- My stylesheet -->
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <!-- navbar from bootstrap documentation -->
     <div id="navBackground">
-        <div class="mainWidth border-bottom">
-            <nav class="navbar navbar-expand-lg py-0">
-                <a class="navbar-brand py-3 px-3" id="brandBackground" href="#">Evan Jones</a>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link border-left" href="Portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link border-left" href="Contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </div>
+      <div class="mainWidth border-bottom">
+        <nav class="navbar navbar-expand-lg navbar-light p-0">
+          <a class="navbar-brand px-3 py-2" href="#" id="brandBackground"
+            >Evan Jones</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
     <div class="container">
-        <div class="row my-4">
-            <div class="col-lg-12" id="navBackground">
-                <h2 class="m-4 pb-3">About Me</h2>
-                <img class="float-left mx-3 mb-3" src="assets/images/ProfilePicture.jpg" alt="Evan Jones" style="width:300px;height:200px;">
-                <p>
-                    I am an aspiring web and game developer living in Boston MA. I am currently in a six month coding bootcamp learning to do full stack web development. I have a background in College Mental Health along with computer science and 3d modeling. I'm still learning
-                    so there isn't much here, but pretty soon I will have some things to add. I will also put a some of my old 3d modeling work and a couple small games I have made in the past
-                </p>
-            </div>
+      <div class="row my-4">
+        <div class="col-lg-12" id="navBackground">
+          <h2 class="m-4 pb-3">About Me</h2>
+          <img
+            class="float-left mx-3 mb-3"
+            src="assets/images/ProfilePicture.jpg"
+            alt="Evan Jones"
+            style="width:300px;height:200px;"
+          />
+          <p>
+            I am an aspiring web and game developer living in Boston MA. I am
+            currently in a six month coding bootcamp learning to do full stack
+            web development. I have a background in College Mental Health along
+            with computer science and 3d modeling. I'm still learning so there
+            isn't much here, but pretty soon I will have some things to add. I
+            will also put a some of my old 3d modeling work and a couple small
+            games I have made in the past
+          </p>
         </div>
+      </div>
     </div>
     <footer id="footer">
-        text here
+      text here
     </footer>
-</body>
-
+  </body>
 </html>
